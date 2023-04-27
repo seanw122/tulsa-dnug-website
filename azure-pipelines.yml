@@ -24,7 +24,7 @@ stages:
             displayName: 'Use .NET SDK 6'
             inputs:
               packageType: sdk
-              version: 6.0.000
+              version: 6.x
   
           - task: DotNetCoreCLI@2
             displayName: Restore
